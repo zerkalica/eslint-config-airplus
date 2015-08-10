@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-airplus",
+  "version": "1.0.1",
+  "description": "Eslint shared config for es7 projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zerkalica/eslint-config-airplus.git"
+  },
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "author": "Stefan Zerkalica <zerkalica@gmail.com>",
+  "license": "MIT"
+}
