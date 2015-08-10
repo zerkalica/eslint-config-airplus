@@ -3,14 +3,14 @@
 ## Install
 
 ```bash
-npm install eslint-config-airplus eslint-config-airbnb eslint-plugin-react babel-eslint eslint
+npm install --save-dev eslint-config-airplus eslint-config-airbnb eslint-plugin-react babel-eslint eslint
 ```
 
 .eslintrc
 
 ```json
 {
-    "extends": ["airbnb", "aurplus"]
+    "extends": ["airbnb", "airplus"]
 }
 ```
 
