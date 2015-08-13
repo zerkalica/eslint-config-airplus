@@ -1,7 +1,7 @@
 {
     "rules": {
         "new-cap": [2, { "newIsCap": true, "capIsNew": false }],
-        "indent": [2, 4, { "SwitchCase": 1 }],
+        "indent": [2, 4],
         "comma-dangle": [2, "never"],
         "comma-spacing": [2, { "before": false, "after": true }],
         "comma-style": [2, "last"],
