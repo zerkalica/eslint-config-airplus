@@ -9,6 +9,8 @@
         "comma-style": [2, "last"],
         "semi": 0,
         "object-curly-spacing": [2, "never"],
-        "react/prop-types": 0
+        "react/prop-types": 0,
+        "prefer-template": 0,
+        "react/jsx-indent-props": 0
     }
 }
