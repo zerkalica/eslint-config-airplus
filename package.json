@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-airplus",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Eslint shared config for es7 projects",
   "main": "index.js",
   "scripts": {
