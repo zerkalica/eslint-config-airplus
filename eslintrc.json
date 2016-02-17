@@ -1,7 +1,14 @@
 {
     "extends": ["airbnb"],
+    "plugins": [
+        "flow-vars"
+    ],
     "parser": "babel-eslint",
     "rules": {
+        "rules": {
+            "flow-vars/define-flow-type": 1,
+            "flow-vars/use-flow-type": 1
+        },
         "new-cap": [2, { "newIsCap": true, "capIsNew": false }],
         "indent": [2, 4],
         "comma-dangle": [2, "never"],

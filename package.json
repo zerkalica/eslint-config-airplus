@@ -17,6 +17,10 @@
   "author": "Stefan Zerkalica <zerkalica@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "eslint-config-airbnb": "^5.0.0"
+    "babel-eslint": "^5.0.0",
+    "eslint": "^1.0.0",
+    "eslint-config-airbnb": "^5.0.1",
+    "eslint-plugin-flow-vars": "^0.1.3",
+    "eslint-plugin-react": "^3.16.1"
   }
 }
