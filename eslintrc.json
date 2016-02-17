@@ -1,10 +1,18 @@
 {
     "extends": ["airbnb"],
     "plugins": [
-        "flow-vars"
+        "flow-vars",
+        "babel"
     ],
     "parser": "babel-eslint",
     "rules": {
+        "babel/generator-star-spacing": 1,
+        "babel/new-cap": 1,
+        "babel/array-bracket-spacing": 1,
+        "babel/object-curly-spacing": 1,
+        "babel/object-shorthand": 1,
+        "babel/arrow-parens": 1,
+        "babel/no-await-in-loop": 1,
         "flow-vars/define-flow-type": 1,
         "flow-vars/use-flow-type": 1,
         "new-cap": [2, { "newIsCap": true, "capIsNew": false }],
