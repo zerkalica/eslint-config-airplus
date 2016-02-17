@@ -27,9 +27,9 @@
         "react/jsx-indent-props": 0
     },
     "globals": {
-        "ReactComponent",
-        "ReactElement",
-        "Observable",
-        "Subscription"
+        "ReactComponent": true,
+        "ReactElement": true,
+        "Observable": true,
+        "Subscription": true
     }
 }
