@@ -25,5 +25,11 @@
         "react/prop-types": 0,
         "prefer-template": 0,
         "react/jsx-indent-props": 0
+    },
+    "globals": {
+        "ReactComponent",
+        "ReactElement",
+        "Observable",
+        "Subscription"
     }
 }
