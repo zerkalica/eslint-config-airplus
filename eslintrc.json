@@ -24,6 +24,7 @@
         "object-curly-spacing": [2, "never"],
         "react/prop-types": 0,
         "prefer-template": 0,
+        "react/sort-comp": 0,
         "react/jsx-indent-props": 0
     },
     "globals": {
