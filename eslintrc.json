@@ -1,7 +1,8 @@
 {
-    "extends": ["airbnb", "plugin:flowtype/recommended"],
+    "extends": ["airbnb", "plugin:flowtype/recommended", "plugin:import/errors", "plugin:import/warnings"],
     "plugins": [
-        "flowtypes",
+        "flowtype",
+        "import",
         "babel"
     ],
     "settings": {
@@ -12,14 +13,12 @@
     "parser": "babel-eslint",
     "rules": {
         "babel/generator-star-spacing": 1,
-        "babel/new-cap": 1,
+        "babel/new-cap": 0,
         "babel/array-bracket-spacing": 1,
         "babel/object-curly-spacing": 1,
         "babel/object-shorthand": 1,
         "babel/arrow-parens": 1,
         "babel/no-await-in-loop": 1,
-        "flow-vars/define-flow-type": 1,
-        "flow-vars/use-flow-type": 1,
         "new-cap": [2, { "newIsCap": true, "capIsNew": false }],
         "indent": [2, 4, {"SwitchCase": 1}],
         "comma-dangle": [2, "never"],
@@ -27,10 +26,31 @@
         "comma-style": [2, "last"],
         "semi": 0,
         "object-curly-spacing": [2, "never"],
-        "react/prop-types": 0,
         "prefer-template": 0,
+        "no-underscore-dangle": 0,
+        "arrow-parens": 0,
+        "arrow-body-style": 0,
+        "no-constant-condition": 0,
+        "no-unused-vars": ["error", {
+            "varsIgnorePattern": ".*Hooks$",
+            "argsIgnorePattern": "^_"
+        }],
+        "no-plusplus": ["error", {
+            "allowForLoopAfterthoughts": true
+        }],
+        "class-methods-use-this": 0,
+        "no-nested-ternary": 0,
+        "no-duplicate-imports": 0,
+        "import/named": 0,
+        "import/extensions": [1, "never"],
+        "react/prop-types": 0,
         "react/sort-comp": 0,
-        "react/jsx-indent-props": 0
+        "react/jsx-indent-props": 0,
+        "react/react-in-jsx-scope": 0,
+        "react/jsx-space-before-closing": 0,
+        "react/jsx-wrap-multilines": 0,
+        "react/jsx-indent": [1, 4],
+        "react/jsx-filename-extension": 0
     },
     "globals": {
         "ReactComponent": true,
