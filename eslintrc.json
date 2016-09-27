@@ -1,9 +1,14 @@
 {
-    "extends": ["airbnb"],
+    "extends": ["airbnb", "plugin:flowtype/recommended"],
     "plugins": [
-        "flow-vars",
+        "flowtypes",
         "babel"
     ],
+    "settings": {
+      "import/resolver": {
+        "babel-module": {}
+      }
+    },
     "parser": "babel-eslint",
     "rules": {
         "babel/generator-star-spacing": 1,
