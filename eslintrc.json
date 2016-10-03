@@ -43,6 +43,8 @@
         "no-duplicate-imports": 0,
         "import/named": 0,
         "import/extensions": [1, "never"],
+        "import/no-extraneous-dependencies": 0,
+        "import/prefer-default-export": 0,
         "react/prop-types": 0,
         "react/sort-comp": 0,
         "react/jsx-indent-props": 0,
