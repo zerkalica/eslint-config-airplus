@@ -1,5 +1,5 @@
 {
-    "extends": ["./airbnb", "plugin:flowtype/recommended", "plugin:import/errors", "plugin:import/warnings"],
+    "extends": ["./airbnb/index.js", "plugin:flowtype/recommended", "plugin:import/errors", "plugin:import/warnings"],
     "plugins": [
         "jsx-a11y",
         "react",
