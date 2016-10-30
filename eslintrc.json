@@ -72,6 +72,7 @@
         "react/jsx-filename-extension": 0
     },
     "globals": {
+        "fetch": true,
         "ReactComponent": true,
         "ReactElement": true,
         "Observable": true,
