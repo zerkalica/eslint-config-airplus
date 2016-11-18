@@ -45,9 +45,7 @@
             "varsIgnorePattern": ".*Hooks$",
             "argsIgnorePattern": "^_"
         }],
-        "no-plusplus": ["error", {
-            "allowForLoopAfterthoughts": true
-        }],
+        "no-plusplus": 0,
         "class-methods-use-this": 0,
         "no-nested-ternary": 0,
         "no-duplicate-imports": 0,
@@ -56,6 +54,7 @@
         "import/extensions": [1, "never"],
         "import/no-extraneous-dependencies": 0,
         "import/prefer-default-export": 0,
+        "import/no-unresolved": 0,
 
         "flowtype/delimiter-dangle": [2, "only-multiline"],
         "flowtype/require-parameter-type": [2, "always"],
