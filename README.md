@@ -10,7 +10,7 @@ npm install --save-dev eslint-config-airplus eslint-config-airbnb eslint-plugin-
 
 ```json
 {
-    "extends": ["airbnb", "airplus"]
+    "extends": ["airplus"]
 }
 ```
 
