@@ -76,7 +76,9 @@
         "react/jsx-space-before-closing": 0,
         "react/jsx-wrap-multilines": 0,
         "react/jsx-indent": [1, 4],
-        "react/jsx-filename-extension": 0
+        "react/jsx-filename-extension": 0,
+
+        "jsx-a11y/no-static-element-interactions": 0
     },
     "globals": {
         "fetch": true,
