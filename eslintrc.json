@@ -52,14 +52,13 @@
         "no-nested-ternary": 0,
         "no-duplicate-imports": 0,
 
-        "filenames/match-regex": 2,
+        "filenames/match-regex": 0,
         "filenames/match-exported": 2,
         "filenames/no-index": 0,
 
         "import/no-named-default": 1,
         "import/named": 0,
         "import/no-webpack-loader-syntax": 1,
-        "import/no-anonymous-default-export": 1,
         "import/extensions": [1, "never"],
         "import/no-extraneous-dependencies": 0,
         "import/prefer-default-export": 0,
