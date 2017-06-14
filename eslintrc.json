@@ -69,6 +69,14 @@
         "flowtype/require-valid-file-annotation": [2, "always"],
         "flowtype/semi": [2, "never"],
 
+        "react/forbid-component-props": 2,
+        "react/no-string-refs": 2,
+        "react/jsx-pascal-case": 2,
+        "react/jsx-key": 2,
+        "react/prefer-stateless-function": 2,
+        "react/no-array-index-key": 2,
+        "react/no-find-dom-node": 2,
+
         "react/prop-types": 0,
         "react/sort-comp": 0,
         "react/jsx-indent-props": 0,
